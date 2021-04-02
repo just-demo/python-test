@@ -12,3 +12,8 @@ print(my_list)
 print(len(my_list))
 print('a' in my_list)
 print('z' in my_list)
+print(my_list[:2])
+print(my_list[2:])
+print(my_list[:])
+for item in my_list:
+    print(item)

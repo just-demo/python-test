@@ -12,3 +12,6 @@ print('z' in my_set)
 my_set2 = {'a', 'z'}
 print(my_set.intersection(my_set2))
 print(my_set.union(my_set2))
+
+for item in my_set:
+    print(item)
