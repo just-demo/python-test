@@ -19,8 +19,8 @@ for i in squares(4):
 
 print()
 
-myList = [x * x for x in range(4)]
-for i in myList:
+my_list = [x * x for x in range(4)]
+for i in my_list:
     print(i, end='')
 
 print()
