@@ -1,0 +1,2 @@
+class Three(Exception):
+    pass
