@@ -34,8 +34,8 @@ PYTHONPATH=. pytest tests/pytest/test_with_fixture.py
 PYTHONPATH=. pytest tests/pytest/test_with_parameters.py
 ```
 
-6. add manually dependencies to requirements.txt (recommended, no need to specify transitive dependencies) or
-   grab installed dependencies (it will include transitive dependencies as well):
+6. add manually dependencies to requirements.txt (recommended, no need to specify transitive dependencies)
+   or grab installed dependencies (it will include transitive dependencies as well):
 ```
 pip freeze > requirements.txt
 ```
