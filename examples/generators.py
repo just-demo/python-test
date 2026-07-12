@@ -31,3 +31,17 @@ for i in generator:
 
 print()
 
+print("Demo fibonacci generator:")
+
+
+def fibonacci():
+    a, b = 0, 1
+    while True:
+        print("fibonacci before")
+        yield a
+        a, b = b, a + b
+        print("fibonacci after")
+
+fib = fibonacci()
+for _ in range(5):
+    print(next(fib))

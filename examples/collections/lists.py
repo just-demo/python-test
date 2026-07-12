@@ -17,3 +17,14 @@ print(my_list[2:])
 print(my_list[:])
 for item in my_list:
     print(item)
+
+print("Demo copy:")
+a = [1, 2, 3, 0, 0, 0]
+b = [4, 5, 6]
+a[3:] = b
+print(a)
+
+print("Demo swap:")
+my_list = ['a', 'b']
+my_list[0], my_list[1] = my_list[1], my_list[0]
+print(my_list)
